@@ -1,0 +1,150 @@
+/* ============== COMMON STYLES ============== */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.accent-color {
+  color: #f4f4fd;
+}
+.accent-color-header {
+  color: #2e2f42;
+}
+/* ============== /COMMON STYLES ============== */
+/* ============== HEADER STYLES ============== */
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact-list-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #404bbf;
+}
+.contact-information {
+  font-style: normal;
+}
+/* ============== /HEADER STYLES ============== */
+/* ============== HERO STYLES ============== */
+.hero {
+  background-color: #2e2f42;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order-service-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+/* ============== /HERO STYLES ============== */
+/* ============== BENEFITS STYLES ============== */
+.benefits-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-list-text,
+.team-description,
+.portfolio-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ===============TEAM========================= */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* =========FOOTER=============== */
+.page-footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
