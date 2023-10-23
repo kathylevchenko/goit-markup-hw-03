@@ -69,6 +69,10 @@ body {
   color: #2e2f42;
 }
 
+img {
+  display: block;
+}
+
 /* ============== HEADER STYLES ============== */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -123,7 +127,7 @@ body {
 
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 /* ============== /HEADER STYLES ============== */
 /* ============== HERO STYLES ============== */
@@ -139,7 +143,6 @@ body {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  padding-bottom: 60px;
 }
 .main-title {
   font-size: 56px;
